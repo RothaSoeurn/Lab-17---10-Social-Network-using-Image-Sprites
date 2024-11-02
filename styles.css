@@ -1,0 +1,31 @@
+/* General Icon Style */
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: rgb(119, 150, 140);
+    background-image: url("social-sprites.png") ;
+    background-size: 200px 100px; /* total width and height of sprite image */
+}
+
+/* Specific Icons */
+.facebook {
+    background-position: -35px 0;
+}
+
+.twitter {
+    background-position: -70px 0;
+}
+
+.yg {
+    background-position: -100px 0;
+}
+
+.linkedin {
+    background-position: -165px 0;
+}
